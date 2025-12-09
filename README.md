@@ -12,9 +12,9 @@ test_separation_results/   audio separation output
 
 scripts /contains plot scripts -->
 
-# Audio Source Separation Models
+# Audio Source Separation 
 
-This project includes **three audio source separation models** for music source separation tasks.  
+This project support audio source separation tasks using deep learning models and includes three audio source separation models for music source separation.  
 <!-- It supports training**, inference, and evaluation on datasets such as MUSDB18. -->
 
 

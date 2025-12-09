@@ -35,7 +35,15 @@ This project includes **three audio source separation models** for music source 
 **To train the model**
 
 ```
-python3 train.py     --model_type scnet     --config_path configs/config_musdb18_scnet.yaml     --results_path results/     --data_path 'datasets/train' --valid_path datasets/test  \     --num_workers 4     --device_ids 0 --start_check_point results/scnet_checkpoint_musdb18.ckpt
+python3 train.py     
+    --model_type scnet     
+    --config_path configs/config_musdb18_scnet.yaml     
+    --results_path results/     
+    --data_path 'datasets/train' 
+    --valid_path datasets/test  \     
+    --num_workers 4     
+    --device_ids 0 
+    --start_check_point results/scnet_checkpoint_musdb18.ckpt
 ```
 
 **Get separation output**
@@ -52,5 +60,10 @@ python inference.py \
 **Valid model**
 
 ```
-python3 valid.py --model_type scnet --config_path configs/config_musdb18_scnet.yaml --start_check_point results/scnet_checkpoint_musdb18.ckpt --valid_path datasets/test/ --metrics sdr
+python3 valid.py 
+    --model_type scnet 
+    --config_path configs/config_musdb18_scnet.yaml 
+    --start_check_point results/scnet_checkpoint_musdb18.ckpt 
+    --valid_path datasets/test/ 
+    --metrics sdr
 ```

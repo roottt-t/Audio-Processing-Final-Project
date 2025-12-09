@@ -23,7 +23,7 @@ This project support audio source separation tasks using deep learning models an
 
 ```text
 ├── input/                    # audio test input
-├── results/                  # pretrained models
+├── results/                  # pretrained models/model checkpoint
 ├── test_separation_results/  # audio separation output 
 ├── scripts/                  # plot scripts 
 ```

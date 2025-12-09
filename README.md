@@ -41,7 +41,6 @@ python3 train.py
     --results_path results/     
     --data_path 'datasets/train' 
     --valid_path datasets/test  \     
-    --num_workers 4     
     --device_ids 0 
     --start_check_point results/scnet_checkpoint_musdb18.ckpt
 ```

@@ -67,4 +67,4 @@ python3 valid.py
     --metrics sdr
 ```
 
-Note: The BS-Rofomer and MDX23C model files exceed GitHub’s upload size limit. These checkpoint files are included inside the ZIP archives.
+<!-- Note: The BS-Rofomer and MDX23C model files exceed GitHub’s upload size limit. These checkpoint files are included inside the ZIP archives. -->
